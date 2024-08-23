@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1378FEEB2C78C18500B70632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FEEA2C78C18500B70632 /* AppDelegate.swift */; };
+		1378FEED2C78C18500B70632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FEEC2C78C18500B70632 /* SceneDelegate.swift */; };
+		1378FEEF2C78C18500B70632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FEEE2C78C18500B70632 /* ViewController.swift */; };
+		1378FEF22C78C18500B70632 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1378FEF12C78C18500B70632 /* Base */; };
+		1378FEF42C78C18D00B70632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1378FEF32C78C18D00B70632 /* Assets.xcassets */; };
+		1378FEF72C78C18D00B70632 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1378FEF62C78C18D00B70632 /* Base */; };
+		1378FF032C78C3C900B70632 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF022C78C3C900B70632 /* Coordinator.swift */; };
+		1378FF052C78C41100B70632 /* TelaAzulCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF042C78C41100B70632 /* TelaAzulCoordinator.swift */; };
+		1378FF0A2C78C67C00B70632 /* TelaAzulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF092C78C67C00B70632 /* TelaAzulView.swift */; };
+		1378FF0E2C78C85500B70632 /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF0D2C78C85500B70632 /* ViewDefault.swift */; };
+		1378FF102C78C9E000B70632 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF0F2C78C9E000B70632 /* ButtonDefault.swift */; };
+		1378FF122C78CC2900B70632 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF112C78CC2900B70632 /* UIColor+.swift */; };
+		1378FF142C78D1A700B70632 /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF132C78D1A700B70632 /* ViewControllerDefault.swift */; };
+		1378FF162C78D22800B70632 /* TelaAzulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF152C78D22800B70632 /* TelaAzulViewController.swift */; };
+		1378FF182C78D80B00B70632 /* TelaVerdeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF172C78D80B00B70632 /* TelaVerdeCoordinator.swift */; };
+		1378FF1A2C78D85F00B70632 /* TelaVermelhaCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF192C78D85F00B70632 /* TelaVermelhaCoordinator.swift */; };
+		1378FF1C2C78D88B00B70632 /* TelaVerdeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF1B2C78D88B00B70632 /* TelaVerdeView.swift */; };
+		1378FF1E2C78D8B000B70632 /* TelaVerdeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF1D2C78D8B000B70632 /* TelaVerdeViewController.swift */; };
+		1378FF202C78D8C800B70632 /* TelaVermelhaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF1F2C78D8C800B70632 /* TelaVermelhaView.swift */; };
+		1378FF222C78D8E600B70632 /* TelaVermelhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378FF212C78D8E600B70632 /* TelaVermelhaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1378FEE72C78C18500B70632 /* TelasSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelasSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1378FEEA2C78C18500B70632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1378FEEC2C78C18500B70632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1378FEEE2C78C18500B70632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1378FEF12C78C18500B70632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1378FEF32C78C18D00B70632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1378FEF62C78C18D00B70632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1378FEF82C78C18D00B70632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1378FF022C78C3C900B70632 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1378FF042C78C41100B70632 /* TelaAzulCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulCoordinator.swift; sourceTree = "<group>"; };
+		1378FF092C78C67C00B70632 /* TelaAzulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulView.swift; sourceTree = "<group>"; };
+		1378FF0D2C78C85500B70632 /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
+		1378FF0F2C78C9E000B70632 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		1378FF112C78CC2900B70632 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		1378FF132C78D1A700B70632 /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
+		1378FF152C78D22800B70632 /* TelaAzulViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAzulViewController.swift; sourceTree = "<group>"; };
+		1378FF172C78D80B00B70632 /* TelaVerdeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeCoordinator.swift; sourceTree = "<group>"; };
+		1378FF192C78D85F00B70632 /* TelaVermelhaCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaCoordinator.swift; sourceTree = "<group>"; };
+		1378FF1B2C78D88B00B70632 /* TelaVerdeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeView.swift; sourceTree = "<group>"; };
+		1378FF1D2C78D8B000B70632 /* TelaVerdeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVerdeViewController.swift; sourceTree = "<group>"; };
+		1378FF1F2C78D8C800B70632 /* TelaVermelhaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaView.swift; sourceTree = "<group>"; };
+		1378FF212C78D8E600B70632 /* TelaVermelhaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaVermelhaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1378FEE42C78C18500B70632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1378FEDE2C78C18500B70632 = {
+			isa = PBXGroup;
+			children = (
+				1378FEE92C78C18500B70632 /* TelasSwift */,
+				1378FEE82C78C18500B70632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1378FEE82C78C18500B70632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1378FEE72C78C18500B70632 /* TelasSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1378FEE92C78C18500B70632 /* TelasSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1378FEFF2C78C2EC00B70632 /* Source */,
+				1378FEFE2C78C22300B70632 /* Resource */,
+				1378FEF82C78C18D00B70632 /* Info.plist */,
+			);
+			path = TelasSwift;
+			sourceTree = "<group>";
+		};
+		1378FEFE2C78C22300B70632 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1378FEEA2C78C18500B70632 /* AppDelegate.swift */,
+				1378FEEC2C78C18500B70632 /* SceneDelegate.swift */,
+				1378FEEE2C78C18500B70632 /* ViewController.swift */,
+				1378FEF02C78C18500B70632 /* Main.storyboard */,
+				1378FEF32C78C18D00B70632 /* Assets.xcassets */,
+				1378FEF52C78C18D00B70632 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1378FEFF2C78C2EC00B70632 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF0C2C78C82D00B70632 /* Infrastructure */,
+				1378FF0B2C78C80C00B70632 /* Extensions */,
+				1378FF012C78C31D00B70632 /* Coordinator */,
+				1378FF002C78C30B00B70632 /* Controller */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1378FF002C78C30B00B70632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF082C78C61400B70632 /* TelaVermelha */,
+				1378FF072C78C60700B70632 /* TelaVerde */,
+				1378FF062C78C5E800B70632 /* TelaAzul */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1378FF012C78C31D00B70632 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF022C78C3C900B70632 /* Coordinator.swift */,
+				1378FF042C78C41100B70632 /* TelaAzulCoordinator.swift */,
+				1378FF172C78D80B00B70632 /* TelaVerdeCoordinator.swift */,
+				1378FF192C78D85F00B70632 /* TelaVermelhaCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		1378FF062C78C5E800B70632 /* TelaAzul */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF092C78C67C00B70632 /* TelaAzulView.swift */,
+				1378FF152C78D22800B70632 /* TelaAzulViewController.swift */,
+			);
+			path = TelaAzul;
+			sourceTree = "<group>";
+		};
+		1378FF072C78C60700B70632 /* TelaVerde */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF1B2C78D88B00B70632 /* TelaVerdeView.swift */,
+				1378FF1D2C78D8B000B70632 /* TelaVerdeViewController.swift */,
+			);
+			path = TelaVerde;
+			sourceTree = "<group>";
+		};
+		1378FF082C78C61400B70632 /* TelaVermelha */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF1F2C78D8C800B70632 /* TelaVermelhaView.swift */,
+				1378FF212C78D8E600B70632 /* TelaVermelhaViewController.swift */,
+			);
+			path = TelaVermelha;
+			sourceTree = "<group>";
+		};
+		1378FF0B2C78C80C00B70632 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF112C78CC2900B70632 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1378FF0C2C78C82D00B70632 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				1378FF0D2C78C85500B70632 /* ViewDefault.swift */,
+				1378FF0F2C78C9E000B70632 /* ButtonDefault.swift */,
+				1378FF132C78D1A700B70632 /* ViewControllerDefault.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1378FEE62C78C18500B70632 /* TelasSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1378FEFB2C78C18D00B70632 /* Build configuration list for PBXNativeTarget "TelasSwift" */;
+			buildPhases = (
+				1378FEE32C78C18500B70632 /* Sources */,
+				1378FEE42C78C18500B70632 /* Frameworks */,
+				1378FEE52C78C18500B70632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelasSwift;
+			productName = TelasSwift;
+			productReference = 1378FEE72C78C18500B70632 /* TelasSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1378FEDF2C78C18500B70632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1378FEE62C78C18500B70632 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1378FEE22C78C18500B70632 /* Build configuration list for PBXProject "TelasSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1378FEDE2C78C18500B70632;
+			productRefGroup = 1378FEE82C78C18500B70632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1378FEE62C78C18500B70632 /* TelasSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1378FEE52C78C18500B70632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1378FEF42C78C18D00B70632 /* Assets.xcassets in Resources */,
+				1378FEF72C78C18D00B70632 /* Base in Resources */,
+				1378FEF22C78C18500B70632 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1378FEE32C78C18500B70632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1378FF032C78C3C900B70632 /* Coordinator.swift in Sources */,
+				1378FF162C78D22800B70632 /* TelaAzulViewController.swift in Sources */,
+				1378FEEF2C78C18500B70632 /* ViewController.swift in Sources */,
+				1378FF142C78D1A700B70632 /* ViewControllerDefault.swift in Sources */,
+				1378FEEB2C78C18500B70632 /* AppDelegate.swift in Sources */,
+				1378FF052C78C41100B70632 /* TelaAzulCoordinator.swift in Sources */,
+				1378FF202C78D8C800B70632 /* TelaVermelhaView.swift in Sources */,
+				1378FF222C78D8E600B70632 /* TelaVermelhaViewController.swift in Sources */,
+				1378FF0E2C78C85500B70632 /* ViewDefault.swift in Sources */,
+				1378FF0A2C78C67C00B70632 /* TelaAzulView.swift in Sources */,
+				1378FF1E2C78D8B000B70632 /* TelaVerdeViewController.swift in Sources */,
+				1378FEED2C78C18500B70632 /* SceneDelegate.swift in Sources */,
+				1378FF1A2C78D85F00B70632 /* TelaVermelhaCoordinator.swift in Sources */,
+				1378FF182C78D80B00B70632 /* TelaVerdeCoordinator.swift in Sources */,
+				1378FF102C78C9E000B70632 /* ButtonDefault.swift in Sources */,
+				1378FF122C78CC2900B70632 /* UIColor+.swift in Sources */,
+				1378FF1C2C78D88B00B70632 /* TelaVerdeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1378FEF02C78C18500B70632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1378FEF12C78C18500B70632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1378FEF52C78C18D00B70632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1378FEF62C78C18D00B70632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1378FEF92C78C18D00B70632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1378FEFA2C78C18D00B70632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1378FEFC2C78C18D00B70632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelasSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TelasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1378FEFD2C78C18D00B70632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelasSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TelasSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1378FEE22C78C18500B70632 /* Build configuration list for PBXProject "TelasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1378FEF92C78C18D00B70632 /* Debug */,
+				1378FEFA2C78C18D00B70632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1378FEFB2C78C18D00B70632 /* Build configuration list for PBXNativeTarget "TelasSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1378FEFC2C78C18D00B70632 /* Debug */,
+				1378FEFD2C78C18D00B70632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1378FEDF2C78C18500B70632 /* Project object */;
+}
